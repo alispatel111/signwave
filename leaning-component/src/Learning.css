@@ -1,0 +1,70 @@
+/* src/Learning.css */
+.learning-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #fae0e3, #fbb9f1); /* Gradient background */
+  min-height: 100vh; /* Ensure container takes full height of viewport */
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin:0 0 20px 0; /* Add margin below paragraphs */
+  color: #333;
+}
+
+.options1 {
+  display:flex;
+  align-items: wrap; /* Center items horizontally */
+  gap: 20px; /* Space between each option */
+  padding: 0 20% 2% 0;
+}
+
+.options2 {
+  display: flex;
+  align-items: wrap; /* Center items horizontally */
+  gap: 20px; /* Space between each option */
+  padding: 0 0 2% 60%;
+  
+}
+
+.options3 {
+  display: flex;
+  align-items: wrap; /* Center items horizontally */
+  gap: 20px; /* Space between each option */
+  padding: 0 50% 2% 0;
+  
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 200px; /* Increase width for better text fit */
+  text-align: center;
+  background-color: #ffffff; /* Background color for options */
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Text color */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.option h2 {
+  margin: 10px;
+  font-size: 22px;
+}
+
+.option:hover {
+  background-color: #f0f0f0; /* Light background on hover */
+  border-color: #bbb; /* Darker border on hover */
+  size: 10%;
+}
+

@@ -1,0 +1,28 @@
+/* src/ISLComponent.css */
+.isl-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;;
+    padding: 10px;
+    background: linear-gradient(135deg, #fae0e3, #fbb9f1);
+    min-height: 100vh;
+  }
+  
+  .box {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+    background: linear-gradient(135deg, #f5f5f5, #cce7ff); /* Gradient background */
+    position: relative;
+  }
+  
+  .box-label {
+    font-size:xx-large;
+    font-weight: bolder;
+  }
+  
